@@ -1,0 +1,15 @@
+
+.mytable td {
+    padding:		5px;
+}
+
+.myform {
+    border-radius:	25px;
+    border: 		2px solid #8AC007;
+	width:			300px;
+	padding: 		10px;
+}
+
+input[type="button"] {
+    width: 150px;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mbeans-descriptors>
+
+	<mbean name="HelloManager" className="com.packt.hibernate.jmx.HelloMBean"
+		description="Sample MBean" domain="Catalina"
+		type="com.packt.hibernate.jmx:Hello">
+
+	    <operation name="sayHello" description="Say Hello" impact="ACTION" returnType="void" />
+	</mbean>
+
+</mbeans-descriptors>
